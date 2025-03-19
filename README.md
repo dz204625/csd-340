@@ -1,2 +1,6 @@
-# csd-340
-repository for csd-340. This is school work
+# CSD 340 Web Development with HTML and CSS
+
+## Contributors
+
+- Darren Osier
+- Dan Zhu
