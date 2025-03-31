@@ -1,0 +1,43 @@
+#container {
+  margin: 50px 100px 0px;
+}
+h1 {
+  text-align: center;
+  color: rgb(255 0 0);
+}
+#image-gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 10%;
+}
+#image-gallery > div {
+  border: 1px solid rgb(255, 189, 7);
+}
+h3 {
+  text-align: center;
+  color: rgb(255 0 0);
+}
+figure {
+  text-align: center;
+  color: rgb(255 0 0);
+}
+figcaption {
+  font-size: 0.75em;
+  font-style: italic;
+}
+.last {
+  width: 100%;
+  margin-top: 20%;
+}
+.last div {
+  float: right;
+  margin-bottom: 20px;
+}
+
+.last a {
+  text-decoration: none;
+}
+
+.last a:hover {
+  text-decoration: underline;
+}
