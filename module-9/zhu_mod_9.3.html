@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Assignment 9.3" />
+    <meta name="keywords" content="html, css, assignment" />
+    <meta name="robots" content="nofollow" />
+    <meta http-equiv="author" content="Dan Zhu" />
+    <link href="../module-2/zhu_mod_2.2.css" type="text/css" rel="stylesheet" />
+    <script>
+      const firstVariableValue = "traveling";
+      const secondVariableValue = "United States";
+      const thirdVariableValue = "community college";
+      const forthVariableValue = "Launch Code";
+    </script>
+  </head>
+  <body>
+    <div id="”container”">
+      <h1>Assignment 9.3: JavaScript - Part 1</h1>
+      <p class="intro">
+        My name is Dan Zhu. I like <span id="traveling">_________</span>,
+        cooking, and baking. I spend most of my time working and spending time
+        with my family. I didn’t finish my bachelor’s degree before I came to
+        the <span id="united_states">_________</span>, and I always wanted to
+        get one.
+      </p>
+      <p>
+        I started taking classes in
+        <span id="community_college">_________</span> and getting my associate
+        degree.
+        <span class="sentence"
+          >Then I became a full-time mom. All the time I spent at home with my
+          kid made me anxious, and I wondered what I could do to make a
+          difference.</span
+        >
+      </p>
+      <p>
+        Then, I found a fantastic code camp in my local area called
+        <span id="launch_code">_________</span>. It provides code training in
+        JavaScript and Java and a little bit of database training. After I
+        finished the training course, I joined their apprenticeship program,
+        which provided job opportunities. In the apprenticeship training, I
+        built the app with teams together. After that, I luckily got a full-time
+        job as a front-end developer.
+      </p>
+      <p>
+        <button
+          type="button"
+          onclick="document.getElementById('traveling').innerHTML = firstVariableValue"
+        >
+          Traveling
+        </button>
+        <button
+          type="button"
+          onclick="document.getElementById('united_states').innerHTML = secondVariableValue"
+        >
+          United States
+        </button>
+        <button
+          type="button"
+          onclick="document.getElementById('community_college').innerHTML = thirdVariableValue"
+        >
+          Community College
+        </button>
+        <button
+          type="button"
+          onclick="document.getElementById('launch_code').innerHTML = forthVariableValue"
+        >
+          Launch Code
+        </button>
+        <br />
+      </p>
+      <hr />
+      <address>
+        <b>
+          <a href="https://www.bellevue.edu/" target="_blank"
+            >Bellevue University</a
+          >
+        </b>
+        <p>1000 Galvin Road South</p>
+        <p>Bellevue, Nebraska 68005</p>
+      </address>
+    </div>
+  </body>
+</html>
