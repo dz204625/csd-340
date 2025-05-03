@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <script>
+      function displayImage(imageFile) {
+        const largerImage = document.getElementById("mainImage");
+        const newNode = document.createElement("img");
+        newNode.id = "mainImage";
+        newNode.src = imageFile;
+        newNode.alt = "Large Image";
+        newNode.className = "mainImage";
+        largerImage.parentNode.replaceChild(newNode, largerImage);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+    <div>
+      <a
+        href="#"
+        onmouseover="mountain.src='fall_mountain.jpg';"
+        onmouseout="mountain.src='winter_mountain.jpg';"
+      >
+        <img style="width: 400px" name="mountain" src="winter_mountain.jpg" />
+      </a>
+    </div>
+    <br />
+    <div
+      onmouseover="this.style.color='red';"
+      onmouseout="this.style.color='black';"
+    >
+      <p>Run your mouse over the image to change.</p>
+    </div>
+    <div>
+      <a
+        href="#"
+        onmouseover="park.src='summer.jpg';"
+        onmouseout="park.src='autumn.jpg';"
+      >
+        <img style="width: 400px" name="park" src="autumn.jpg" />
+      </a>
+    </div>
+    <div
+      onmouseover="this.style.color='red';"
+      onmouseout="this.style.color='black';"
+    >
+      <p>Run your mouse over the image to change.</p>
+    </div>
+  </body>
+</html>
