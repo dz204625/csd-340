@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Assignment 11.2" />
+    <meta name="keywords" content="html, css, assignment" />
+    <meta name="robots" content="nofollow" />
+    <meta name="author" content="Dan Zhu" />
+    <link href="./zhu_mod_11.2.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Assignment 11.2: JavaScript - Part 3</h1>
+      <p>
+        This is an interactive To Do List. Type in your first item in the text
+        box, then click Add. The list will show below. You add delete the item
+        by clicking on deleting button in the list item.
+      </p>
+    </header>
+    <div id="container">
+      <h2>My To Do List</h2>
+      <input type="text" id="taskInput" placeholder="Add new task..." />
+      <button onclick="addTask()">Add</button>
+      <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
